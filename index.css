@@ -1,0 +1,165 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.styleLine {
+    width: 85.776%;
+    margin: 0;
+    border: 1px solid #E6E6E6;
+    padding: 0;
+}
+
+.containerSpoiler {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.styleH2 {
+    margin: 0;
+    font-weight: 400;
+    color: #012B34;
+}
+
+.list-group-item {
+    position: relative;
+    display: flex;
+    color: #012B34;
+    margin: 0;
+    width: 1600px;
+    cursor: pointer;
+    word-break: break-all;
+    font-weight: 400;
+}
+
+.list-content {
+    word-break: break-all;
+    opacity: 0.8;
+    color: #000402;
+}
+.list-group-text {
+    color: #02818A;
+}
+
+
+.spoiler-body {
+    display: none;
+}
+
+@media (max-width: 1920px) {
+    .styleH2 {
+        font-size: 64px;
+        padding: 100px 0 80px 160px;
+    }
+
+    .list-group-item {
+        font-size: 36px;
+        padding: 30px 0;
+
+    }
+
+    .list-content {
+        padding-bottom: 40px;
+        width: 942px;
+        font-size: 20px;
+    }
+
+    .containerSpoiler {
+        padding-left: 160px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .styleH2 {
+        font-size: 48px;
+        padding: 80px 0 60px 120px;
+    }
+
+    .list-group-item {
+        font-size: 27px;
+        padding: 24px 0;
+
+    }
+
+    .list-content {
+        padding-bottom: 30px;
+        width: 840px;
+        font-size: 15px;
+    }
+
+    .containerSpoiler {
+        padding-left: 120px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .styleH2 {
+        font-size: 42px;
+        padding: 70px 0 56px 107px;
+    }
+
+    .list-group-item {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .list-content {
+        padding-bottom: 24px;
+        width: 640px;
+        font-size: 14px;
+    }
+
+    .containerSpoiler {
+        padding-left: 107px;
+    }
+}
+
+
+@media (device-width: 768px) {
+    .styleH2 {
+        font-size: 42px;
+        padding: 60px 0 50px 40px;
+    }
+
+    .list-group-item {
+        font-size: 27px;
+        padding: 24px 0;
+    }
+
+    .list-content {
+        padding-bottom: 24px;
+        width: 612px;
+        font-size: 15px;
+    }
+
+    .containerSpoiler {
+        padding-left: 40px;
+    }
+}
+
+
+@media (device-width: 375px) {
+    .styleH2 {
+        font-size: 30px;
+        word-break: break-all;
+        width: 190px;
+        padding: 50px 0 40px 24px;
+    }
+
+    .list-group-item {
+        font-size: 24px;
+        padding: 20px 0;
+        width: 289px;
+    }
+
+    .list-content {
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .containerSpoiler {
+        padding-left: 24px;
+    }
+}
+
